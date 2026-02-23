@@ -13,7 +13,7 @@ const STAGE_COLOR = "#B4A56F";
 
 async function loadDashboardData() {
   // Load the main dashboard data file (user-provided)
-  const response = await fetch("./data/dashboard-data.json");
+  const response = await fetch("https://raw.githubusercontent.com/linda-alhadari/Lenda-s-BE-Projects-Tracker/refs/heads/main/data/dashboard-data.json?_sm_au_=iVVZj6VWvN4Q7FqSLqHpHKsKMVjQp");
   if (!response.ok) {
     // Fail quietly but keep layout
     // eslint-disable-next-line no-console
