@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio delivery performance overview and project status tracking" />
     <title>Projects Tracker Dashboard</title>
     <link rel="icon" type="image/svg+xml" href="./img/header-logo.svg" />
     <link rel="stylesheet" href="./CSS/dashboard.css" />
@@ -72,13 +73,14 @@
                 <p class="card-subtitle">Distribution by current status</p>
               </div>
             </header>
-            <div class="chart-layout">
+            <div class="chart-layout chart-layout--status">
               <div class="donut-wrapper">
                 <div class="donut" id="status-donut">
                   <div class="donut-center">
                     <div class="donut-value" id="status-donut-main-value"></div>
                   </div>
                 </div>
+                <div class="donut-labels" id="status-donut-labels" aria-hidden="true"></div>
               </div>
               <ul class="legend" id="status-legend">
                 <!-- Legend rows from JSON -->
@@ -102,6 +104,103 @@
           </div>
         </aside>
       </main>
+    </div>
+
+    <!-- Project Details Modal -->
+    <div class="modal-backdrop" id="project-modal-backdrop" aria-hidden="true">
+      <div class="modal" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-name">
+        <div class="modal-header">
+          <div class="modal-header-left">
+            <div class="modal-project-id" id="modal-project-id">—</div>
+            <div class="modal-created-date" id="modal-created-date">—</div>
+          </div>
+          <h2 class="modal-project-name" id="modal-project-name">—</h2>
+          <div class="modal-header-right">
+            <span class="modal-status-pill" id="modal-status-pill">—</span>
+            <button type="button" class="modal-close" aria-label="Close modal" id="modal-close">×</button>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="modal-cards-row">
+            <div class="modal-info-card">
+              <span class="modal-card-label">Stage</span>
+              <span class="modal-card-value" id="modal-stage">—</span>
+            </div>
+            <div class="modal-info-card">
+              <span class="modal-card-label">SBU / Function</span>
+              <span class="modal-card-value" id="modal-sbu">—</span>
+            </div>
+            <div class="modal-info-card">
+              <span class="modal-card-label">Beneficiary Dept.</span>
+              <span class="modal-card-value" id="modal-beneficiary">—</span>
+            </div>
+            <div class="modal-info-card">
+              <span class="modal-card-label">Portfolio</span>
+              <span class="modal-card-value" id="modal-portfolio">—</span>
+            </div>
+            <div class="modal-info-card modal-info-card--wide">
+              <div class="modal-sponsor-row">
+                <div><span class="modal-card-label">Project Sponsor</span><span class="modal-card-value" id="modal-sponsor">—</span></div>
+                <div><span class="modal-card-label">Business Focal</span><span class="modal-card-value" id="modal-business-focal">—</span></div>
+                <div><span class="modal-card-label">IT PM</span><span class="modal-card-value" id="modal-it-pm">—</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-row-2">
+            <div class="modal-info-card modal-info-card--milestone">
+              <span class="modal-card-label">Milestone</span>
+              <span class="modal-card-value" id="modal-milestone">—</span>
+            </div>
+            <div class="modal-info-card modal-info-card--values">
+              <span class="modal-card-label">Added Values</span>
+              <ul class="modal-list" id="modal-added-values"></ul>
+            </div>
+          </div>
+          <div class="modal-row-3">
+            <div class="modal-section modal-demand">
+              <h4 class="modal-section-title">Demand Description</h4>
+              <p class="modal-demand-text" id="modal-demand">—</p>
+            </div>
+            <div class="modal-phase-timeline">
+              <h4 class="modal-section-title">Phase Timeline</h4>
+              <div class="modal-timeline" id="modal-timeline"></div>
+              <div class="modal-timeline-legend">
+                <span class="modal-legend-tag">Active Phase</span>
+                <span class="modal-legend-tag">In Progress</span>
+                <span class="modal-legend-tag">Upcoming</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-progress-row">
+            <div class="modal-progress-bar-wrap">
+              <div class="modal-progress-bar" id="modal-progress-bar">
+                <div class="modal-progress-planned" id="modal-progress-planned"></div>
+                <div class="modal-progress-actual" id="modal-progress-actual"></div>
+              </div>
+              <div class="modal-progress-legend">
+                <span><span class="modal-legend-dot modal-legend-dot--planned"></span> Planned: <span id="modal-planned-pct">0%</span></span>
+                <span><span class="modal-legend-dot modal-legend-dot--actual"></span> Actual: <span id="modal-actual-pct">0%</span></span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-row-4">
+            <div class="modal-section">
+              <h4 class="modal-section-title">Update</h4>
+              <ul class="modal-list modal-list--updates" id="modal-updates"></ul>
+            </div>
+            <div class="modal-section-group">
+              <div class="modal-section">
+                <h4 class="modal-section-title">Challenges &amp; Risks</h4>
+                <ol class="modal-list modal-list--numbered" id="modal-challenges"></ol>
+              </div>
+              <div class="modal-section">
+                <h4 class="modal-section-title">Planned Activities</h4>
+                <ol class="modal-list modal-list--numbered" id="modal-planned-activities"></ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="./main.js" type="module"></script>
