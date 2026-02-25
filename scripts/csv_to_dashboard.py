@@ -70,34 +70,87 @@ def main():
                 continue
             rows.append(row)
 
-    # Headers: Project Name, Demand Number, SBU/Function, Stage, Portfolio, Business Focal Point, Status, Project Manager, ...
+    # Headers - support various column names from SharePoint export
     idx = {h.strip(): i for i, h in enumerate(headers)}
-    get = lambda r, k: (r[idx[k]] if k in idx and idx[k] < len(r) else "").strip()
+    def get(r, *keys):
+        for k in keys:
+            if k in idx and idx[k] < len(r):
+                v = (r[idx[k]] or "").strip()
+                if v:
+                    return v
+        return ""
+
+    def parse_list(s):
+        if not s:
+            return []
+        return [x.strip() for x in s.replace("•", "\n").split("\n") if x.strip()]
 
     projects = []
     for i, r in enumerate(rows):
-        name = get(r, "Project Name") or get(r, "Project Name")
+        name = get(r, "Project Name", "Title")
         if not name:
             continue
-        sbu_raw = get(r, "SBU/Function")
+        sbu_raw = get(r, "SBU/Function", "BU")
         department = parse_sbu(sbu_raw)
         stage = get(r, "Stage") or "Execution"
         portfolio = get(r, "Portfolio") or ""
         status_raw = get(r, "Status")
         status = STATUS_MAP.get(status_raw, "On Track")
-        pm = get(r, "Project Manager")
+        pm = get(r, "Project Manager", "AssignedPerson")
         planned, actual = default_progress(status)
+        demand_num = get(r, "Demand Number", "DemandName")
+        biz_focal = get(r, "Business Focal Point ", "Business Focal Point", "BusinessFocalPoint")
+        milestone = get(r, "Milestone ", "Milestone")
+        demand_date = get(r, "Demand Creation date ", "Demand Creation date", "DemandAssignmentdate")
+        go_live = get(r, "Go-Live date", "Go_x002d_Livedate")
+        modified = get(r, "Modified")
+        summery = get(r, "Summery")
+        progress_summery = get(r, "ProgressSummery")
+        challenges = get(r, "Challenges ")
+        risks = get(r, "Risks ")
+        planned_activities = get(r, "Planned Activities ", "PlannedActivities")
+        added_values = get(r, "Added Values ", "AddedValues")
+        beneficiary = get(r, "Beneficiary Department ", "BeneficiaryDepartment")
+        sponsor = get(r, "Sponsor ", "Sponsor0")
+        init_start = get(r, "Initiation Start Date", "InitiationStartDate")
+        init_end = get(r, "Initiation End Date")
+        proc_start = get(r, "Procurement Start Date", "ProcurementStart")
+        proc_end = get(r, "Procurement End Date")
+        exec_start = get(r, "Execution Start Date", "ExecutionStartDate")
+        exec_end = get(r, "Execution End Date")
+        closure_start = get(r, "Closure Start Date", "ClosureStartDate")
+        closure_end = get(r, "Closure End Date")
 
         projects.append({
             "id": i + 1,
             "name": name,
+            "demandNumber": demand_num or f"PRJ-2024-{i + 1:03d}",
             "department": department,
             "portfolio": portfolio,
             "status": status,
             "lifecycleStage": stage,
             "projectManager": pm or "—",
+            "businessFocalPoint": biz_focal,
+            "sponsor": sponsor,
             "plannedProgress": planned,
             "actualProgress": actual,
+            "milestone": milestone,
+            "demandCreationDate": demand_date,
+            "goLiveDate": go_live,
+            "modified": modified,
+            "demandDescription": summery,
+            "update": progress_summery,
+            "challenges": parse_list(challenges) if challenges else [],
+            "risks": parse_list(risks) if risks else [],
+            "plannedActivities": parse_list(planned_activities) if planned_activities else [],
+            "addedValues": parse_list(added_values) if added_values else [],
+            "beneficiaryDepartment": beneficiary,
+            "phaseDates": {
+                "initiation": {"start": init_start, "end": init_end},
+                "procurement": {"start": proc_start, "end": proc_end},
+                "execution": {"start": exec_start, "end": exec_end},
+                "closure": {"start": closure_start, "end": closure_end},
+            },
         })
 
     total = len(projects)
