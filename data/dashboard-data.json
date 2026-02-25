@@ -118,893 +118,3485 @@
     {
       "id": 1,
       "name": "ORACLE Redwood",
+      "demandNumber": "DEM00403",
       "department": "IT",
       "portfolio": "IT",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "inayatullahm@Maaden.com.sa",
+      "businessFocalPoint": "Abdulqaderf@maaden.com",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2024-09-30T21:00:00Z",
+      "goLiveDate": "2025-12-30T21:00:00Z",
+      "modified": "2026-01-28T10:44:07Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 2,
       "name": "IMOS",
+      "demandNumber": "DEM00020",
       "department": "Phosphate",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "inayatullahm@Maaden.com.sa",
+      "businessFocalPoint": "WabeliA@Maaden.com",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Value Realization",
+      "demandCreationDate": "",
+      "goLiveDate": "2025-06-04T21:00:00Z",
+      "modified": "2025-11-25T08:48:38Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 3,
       "name": "Implement Industrial Knowledge Graph",
+      "demandNumber": "DEM00486",
       "department": "ALUMINUM",
       "portfolio": "Digitalization",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "ChakraborttyG@maaden.com.sa",
+      "businessFocalPoint": "KinaniK@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2024-12-11T21:00:00Z",
+      "goLiveDate": "2025-11-29T21:00:00Z",
+      "modified": "2025-12-07T06:36:16Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 4,
       "name": "SNOW – Strategy Portfolio Management​",
+      "demandNumber": "DEM00321",
       "department": "IT",
       "portfolio": "IT",
       "status": "Closing",
       "lifecycleStage": "Execution",
       "projectManager": "AlamroL@maaden.com.sa",
+      "businessFocalPoint": "MurugesanR@Maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Analysis & Design",
+      "demandCreationDate": "2024-08-07T21:00:00Z",
+      "goLiveDate": "2025-10-29T21:00:00Z",
+      "modified": "2026-01-14T08:25:06Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 5,
       "name": "Java Cloud Service to WebLogic migration​",
+      "demandNumber": "DEM00288",
       "department": "IT",
       "portfolio": "IT",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "inayatullahm@Maaden.com.sa",
+      "businessFocalPoint": "Abdulqaderf@maaden.com",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "2024-05-22T21:00:00Z",
+      "goLiveDate": "2025-04-19T21:00:00Z",
+      "modified": "2025-11-25T08:44:25Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 6,
       "name": "OIC Gen2 to Gen3 Upgrade​ & SOA to OIC (Bank & Bloomberg)",
+      "demandNumber": "DEM00290",
       "department": "IT",
       "portfolio": "IT",
       "status": "Slightly Delayed",
       "lifecycleStage": "Execution",
       "projectManager": "inayatullahm@Maaden.com.sa",
+      "businessFocalPoint": "Abdulqaderf@maaden.com",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2024-05-25T21:00:00Z",
+      "goLiveDate": "2026-02-07T21:00:00Z",
+      "modified": "2026-01-15T10:20:01Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 7,
       "name": "IMa'aden Application ​",
+      "demandNumber": "DEM00276",
       "department": "IT",
       "portfolio": "Empower",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "JainM@maaden.com.sa",
+      "businessFocalPoint": "AldossaryN@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2024-01-22T21:00:00Z",
+      "goLiveDate": "2025-07-21T21:00:00Z",
+      "modified": "2025-08-28T06:51:54Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 8,
       "name": "Oracle Fusion Data Intelligence Pilot​",
+      "demandNumber": "PRJ-2024-008",
       "department": "IT",
       "portfolio": "IT",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "syedm@Maaden.com.sa",
+      "businessFocalPoint": "AlRammahM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Value Realization",
+      "demandCreationDate": "",
+      "goLiveDate": "",
+      "modified": "2026-01-14T08:25:48Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 9,
       "name": "RAK Remote Monitoring Centre - Unified Operation Center",
+      "demandNumber": "DEM00421",
       "department": "Phosphate",
       "portfolio": "Digitalization",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "ChakraborttyG@maaden.com.sa",
+      "businessFocalPoint": "AlghamdiAh@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Plan",
+      "demandCreationDate": "2025-04-14T21:00:00Z",
+      "goLiveDate": "2025-12-31T21:00:00Z",
+      "modified": "2026-01-14T10:13:28Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 10,
       "name": "MTP2 Transition to IBM​",
+      "demandNumber": "NA",
       "department": "IT",
       "portfolio": "IT",
       "status": "Slightly Delayed",
       "lifecycleStage": "Execution",
       "projectManager": "inayatullahm@Maaden.com.sa",
+      "businessFocalPoint": "Abdulqaderf@maaden.com",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Build & Test",
+      "demandCreationDate": "",
+      "goLiveDate": "2026-02-06T21:00:00Z",
+      "modified": "2026-01-14T11:30:25Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 11,
       "name": "MineMarket Integration with Oracle Fusion​",
+      "demandNumber": "PRJ-2024-011",
       "department": "BMNM",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "inayatullahm@Maaden.com.sa",
+      "businessFocalPoint": "AlAmmarG@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "",
+      "goLiveDate": "2025-04-27T21:00:00Z",
+      "modified": "2025-08-30T14:33:57Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 12,
       "name": "Contract Life Cycle Management- Sirion​",
+      "demandNumber": "DEM00136",
       "department": "Procurement",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "JabbarR@maaden.com.sa",
+      "businessFocalPoint": "ShangitiMo@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "2023-12-10T21:00:00Z",
+      "goLiveDate": "2025-10-29T21:00:00Z",
+      "modified": "2026-01-13T13:00:12Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 13,
       "name": "MDRM Project​",
+      "demandNumber": "DEM00246",
       "department": "Procurement",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Execution",
       "projectManager": "JabbarR@maaden.com.sa",
+      "businessFocalPoint": "AlhashemH@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Analysis & Design",
+      "demandCreationDate": "2024-03-24T21:00:00Z",
+      "goLiveDate": "2025-12-27T21:00:00Z",
+      "modified": "2026-01-14T11:18:31Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 14,
       "name": "Expeditors Automation using Oracle Digital Agent Project​",
+      "demandNumber": "REP0001939",
       "department": "Procurement",
       "portfolio": "Business Demand",
       "status": "On Hold",
       "lifecycleStage": "Procurement",
       "projectManager": "JabbarR@maaden.com.sa",
+      "businessFocalPoint": "AbdulrahmanM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 50,
-      "actualProgress": 48
+      "actualProgress": 48,
+      "milestone": "Procurement Plan",
+      "demandCreationDate": "2024-11-30T21:00:00Z",
+      "goLiveDate": "2026-05-04T21:00:00Z",
+      "modified": "2026-01-14T11:16:08Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 15,
       "name": "CrMS Contractor Administration Project​ (SAP FieldGlass)",
+      "demandNumber": "DEM00349",
       "department": "Procurement",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AlhashemH@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "2024-10-27T21:00:00Z",
+      "goLiveDate": "2025-12-17T21:00:00Z",
+      "modified": "2026-01-14T08:16:35Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 16,
       "name": "SHAGOF  Phase1​",
+      "demandNumber": "DEM00306",
       "department": "Procurement",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "AlRashidiMON@maaden.com",
+      "businessFocalPoint": "AlhashemH@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "2024-06-30T21:00:00Z",
+      "goLiveDate": "2025-02-23T21:00:00Z",
+      "modified": "2025-10-08T07:25:50Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 17,
       "name": "SHAGOF Phase 2​",
+      "demandNumber": "DEM00306",
       "department": "Procurement",
       "portfolio": "Business Demand",
       "status": "On Hold",
       "lifecycleStage": "Execution",
       "projectManager": "AlRashidiMON@maaden.com",
+      "businessFocalPoint": "AlhashemH@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 50,
-      "actualProgress": 48
+      "actualProgress": 48,
+      "milestone": "Analysis & Design",
+      "demandCreationDate": "",
+      "goLiveDate": "2026-01-21T21:00:00Z",
+      "modified": "2026-01-14T11:20:50Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 18,
       "name": "HR Project (HR Processes and Enhancements)​",
+      "demandNumber": "DEM00077",
       "department": "HR",
       "portfolio": "Business Demand",
       "status": "Slightly Delayed",
       "lifecycleStage": "Execution",
       "projectManager": "MajhiS@maaden.com.sa",
+      "businessFocalPoint": "TarfaM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-04-26T21:00:00Z",
+      "goLiveDate": "2025-12-30T21:00:00Z",
+      "modified": "2026-02-11T09:10:03Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 19,
       "name": "Computer Aided Facility Management​",
+      "demandNumber": "DEM00045",
       "department": "HR",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "MajhiS@maaden.com.sa",
+      "businessFocalPoint": "TarfaM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2023-08-23T21:00:00Z",
+      "goLiveDate": "2025-12-25T21:00:00Z",
+      "modified": "2026-01-14T09:31:00Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 20,
       "name": "HR DMS​",
+      "demandNumber": "DEM00435",
       "department": "HR",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Execution",
       "projectManager": "SekarK@maaden.com.sa",
+      "businessFocalPoint": "TarfaM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-05-13T21:00:00Z",
+      "goLiveDate": "2026-03-02T21:00:00Z",
+      "modified": "2026-01-14T08:26:35Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 21,
       "name": "AI for Recruitment ​",
+      "demandNumber": "DEM00305",
       "department": "HR",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "AlTaweelMA@maaden.com",
+      "businessFocalPoint": "TarfaM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Value Realization",
+      "demandCreationDate": "2024-06-25T21:00:00Z",
+      "goLiveDate": "2025-08-27T21:00:00Z",
+      "modified": "2025-11-25T06:14:32Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 22,
       "name": "GR ServiceNow Rollout​",
+      "demandNumber": "DEM00244",
       "department": "HR",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "MajhiS@maaden.com.sa",
+      "businessFocalPoint": "TarfaM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Analysis & Design",
+      "demandCreationDate": "2025-06-24T21:00:00Z",
+      "goLiveDate": "2025-11-29T21:00:00Z",
+      "modified": "2026-01-14T09:31:31Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 23,
       "name": "BMNM Attendance System​",
+      "demandNumber": "DEM00214",
       "department": "BMNM",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "MajhiS@maaden.com.sa",
+      "businessFocalPoint": "AlsallomN@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "2024-02-04T21:00:00Z",
+      "goLiveDate": "2025-08-30T21:00:00Z",
+      "modified": "2025-11-25T06:26:47Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 24,
       "name": "Geoscience System Upgrade​",
+      "demandNumber": "DEM00330",
       "department": "ERD",
       "portfolio": "Business Demand",
       "status": "Slightly Delayed",
       "lifecycleStage": "Execution",
       "projectManager": "ShivarudraiahV@maaden.com",
+      "businessFocalPoint": "SantiagodeOliveiraA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Production Implementation",
+      "demandCreationDate": "2024-09-09T21:00:00Z",
+      "goLiveDate": "2025-12-11T21:00:00Z",
+      "modified": "2025-11-27T07:38:32Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 25,
       "name": "Gold Geoscience System Implementation​",
+      "demandNumber": "DEM00115",
       "department": "BMNM",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "AlRashidiMON@maaden.com",
+      "businessFocalPoint": "AliMoh@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "",
+      "goLiveDate": "2025-08-30T21:00:00Z",
+      "modified": "2025-10-08T08:18:10Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 26,
       "name": "ADW & MM LIMS",
+      "demandNumber": "DEM00353",
       "department": "BMNM",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "ShivarudraiahV@maaden.com",
+      "businessFocalPoint": "MajeePA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Analysis & Design",
+      "demandCreationDate": "2024-11-13T21:00:00Z",
+      "goLiveDate": "2026-06-29T21:00:00Z",
+      "modified": "2026-01-18T10:19:29Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 27,
       "name": "Prometheus P&S solution (Viziya replacement)​",
+      "demandNumber": "operational project",
       "department": "ALUMINUM",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "BinQurayahA@maaden.com.sa",
+      "businessFocalPoint": "sadiqa@Maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "",
+      "goLiveDate": "2025-09-24T21:00:00Z",
+      "modified": "2025-10-07T07:30:14Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 28,
       "name": "InSafe POC ​",
+      "demandNumber": "DEM00392",
       "department": "ALUMINUM",
       "portfolio": "Digitalization",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "BinQurayahA@maaden.com.sa",
+      "businessFocalPoint": "Harbina@Maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Value Realization",
+      "demandCreationDate": "2025-01-05T21:00:00Z",
+      "goLiveDate": "2025-11-15T21:00:00Z",
+      "modified": "2025-11-03T10:36:36Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 29,
       "name": "InsideView Onboarding & Upgrade​",
+      "demandNumber": "DEM00385",
       "department": "Phosphate",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Execution",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AlhazmiS@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Production Implementation",
+      "demandCreationDate": "2025-01-12T21:00:00Z",
+      "goLiveDate": "2026-01-30T21:00:00Z",
+      "modified": "2026-01-14T12:02:18Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 30,
       "name": "HSS Comprehensive Platform - Hemaya Upgrade",
+      "demandNumber": "DEM00381",
       "department": "SSI",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Procurement",
       "projectManager": "LaiqS@maaden.com.sa",
+      "businessFocalPoint": "AlshubrumiA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "PR Creation & Approval",
+      "demandCreationDate": "2025-01-05T21:00:00Z",
+      "goLiveDate": "2026-04-09T21:00:00Z",
+      "modified": "2026-01-13T05:59:35Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 31,
       "name": "Crisis Incidents Management",
+      "demandNumber": "DEM00040",
       "department": "SSI",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "AlZaharanyS@maaden.com.sa",
+      "businessFocalPoint": "AlBakrR@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "",
+      "goLiveDate": "",
+      "modified": "2025-11-25T06:14:04Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 32,
       "name": "Sulphuric Acid Plant Digital Twin (SAP DT) PoC",
+      "demandNumber": "DEM00468",
       "department": "Phosphate",
       "portfolio": "Digitalization",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "ChakraborttyG@maaden.com.sa",
+      "businessFocalPoint": "AzimKhanF@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Evaluation & Awarding",
+      "demandCreationDate": "2025-07-31T21:00:00Z",
+      "goLiveDate": "2026-01-30T21:00:00Z",
+      "modified": "2026-01-14T10:14:19Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 33,
       "name": "Maaden Project Management Information System(Integration with Oracle Fusion) ​)",
+      "demandNumber": "391624",
       "department": "PDE",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Execution",
       "projectManager": "inayatullahm@Maaden.com.sa",
+      "businessFocalPoint": "RajputM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2023-07-01T21:00:00Z",
+      "goLiveDate": "2025-11-29T21:00:00Z",
+      "modified": "2026-01-14T08:34:35Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 34,
       "name": "RPA FM Invoicing",
+      "demandNumber": "DEM00011",
       "department": "Finance",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Execution",
       "projectManager": "MajhiS@maaden.com.sa",
+      "businessFocalPoint": "AlDossarySAAD@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Production Implementation",
+      "demandCreationDate": "",
+      "goLiveDate": "2025-09-29T21:00:00Z",
+      "modified": "2026-01-14T09:18:17Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 35,
       "name": "SRM AI & RPA",
+      "demandNumber": "DEM00412",
       "department": "Procurement",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "AlRashidiMON@maaden.com",
+      "businessFocalPoint": "AlhashemH@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-05-20T21:00:00Z",
+      "goLiveDate": "2026-01-21T21:00:00Z",
+      "modified": "2026-01-18T10:58:05Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 36,
       "name": "Account payable invoicing",
+      "demandNumber": "DEM00242",
       "department": "Finance",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "JabbarR@maaden.com.sa",
+      "businessFocalPoint": "AlDossarySAAD@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "2024-03-10T21:00:00Z",
+      "goLiveDate": "2025-10-21T21:00:00Z",
+      "modified": "2026-01-14T08:35:09Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 37,
       "name": "QMS - Ideagen",
+      "demandNumber": "DEM00408",
       "department": "ALUMINUM",
       "portfolio": "Business Demand",
       "status": "On Hold",
       "lifecycleStage": "Procurement",
       "projectManager": "JainM@maaden.com.sa",
+      "businessFocalPoint": "ChakkolayilA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 50,
-      "actualProgress": 48
+      "actualProgress": 48,
+      "milestone": "PR Creation & Approval",
+      "demandCreationDate": "2025-03-03T21:00:00Z",
+      "goLiveDate": "",
+      "modified": "2025-11-27T06:48:31Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 38,
       "name": "QMS - IdeaGen (Phos)",
+      "demandNumber": "DEM00076",
       "department": "Phosphate",
       "portfolio": "Business Demand",
       "status": "Slightly Delayed",
       "lifecycleStage": "Execution",
       "projectManager": "LaiqS@maaden.com.sa",
+      "businessFocalPoint": "MFarrejF@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2024-11-02T21:00:00Z",
+      "goLiveDate": "2026-02-16T21:00:00Z",
+      "modified": "2026-01-15T08:40:34Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 39,
       "name": "Core Logic - Datarock - POC",
+      "demandNumber": "TBD",
       "department": "BMNM",
       "portfolio": "Digitalization",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "ChakraborttyG@maaden.com.sa",
+      "businessFocalPoint": "HeerdenM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "PM Assignement",
+      "demandCreationDate": "2025-08-10T21:00:00Z",
+      "goLiveDate": "2025-12-25T21:00:00Z",
+      "modified": "2025-12-07T06:34:31Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 40,
       "name": "MM Mine to Mill Project Alignment with IT",
+      "demandNumber": "DEM00466",
       "department": "BMNM",
       "portfolio": "Digitalization",
       "status": "Slightly Delayed",
       "lifecycleStage": "Execution",
       "projectManager": "ChakraborttyG@maaden.com.sa",
+      "businessFocalPoint": "MagalhaesC@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-07-20T21:00:00Z",
+      "goLiveDate": "2026-02-16T21:00:00Z",
+      "modified": "2026-01-13T11:35:00Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 41,
       "name": "Autonomous Haulage System (AHS) by Pronto",
+      "demandNumber": "TBR",
       "department": "BMNM",
       "portfolio": "Digitalization",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "—",
+      "businessFocalPoint": "HamdaniAI@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "PM Assignement",
+      "demandCreationDate": "",
+      "goLiveDate": "",
+      "modified": "2026-01-14T10:14:59Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 42,
       "name": "Autonomous Mining Trucks (Huawei)",
+      "demandNumber": "PRJ-2024-042",
       "department": "BMNM",
       "portfolio": "Digitalization",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "—",
+      "businessFocalPoint": "MortonO@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "CS & EDA",
+      "demandCreationDate": "",
+      "goLiveDate": "",
+      "modified": "2026-01-14T10:15:07Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 43,
       "name": "Mine head grade Optimization",
+      "demandNumber": "PRJ-2024-043",
       "department": "Phosphate",
       "portfolio": "Digitalization",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "AlquraishiAB@maaden.com.sa",
+      "businessFocalPoint": "AlgharbiS@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Plan",
+      "demandCreationDate": "2024-12-31T21:00:00Z",
+      "goLiveDate": "2025-10-31T21:00:00Z",
+      "modified": "2026-01-14T10:14:37Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 44,
       "name": "Mining software planning and engineering tool",
+      "demandNumber": "PRJ-2024-044",
       "department": "Phosphate",
       "portfolio": "Digitalization",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "AlhajriHA@maaden.com.sa",
+      "businessFocalPoint": "MortonO@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "",
+      "goLiveDate": "",
+      "modified": "2025-09-07T13:02:31Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 45,
       "name": "BENE Optimization Intellisense-2",
+      "demandNumber": "DEM00491",
       "department": "Phosphate",
       "portfolio": "Digitalization",
       "status": "Slightly Delayed",
       "lifecycleStage": "Execution",
       "projectManager": "ChakraborttyG@maaden.com.sa",
+      "businessFocalPoint": "MortonO@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Analysis & Design",
+      "demandCreationDate": "2025-09-07T21:00:00Z",
+      "goLiveDate": "2026-03-30T21:00:00Z",
+      "modified": "2026-01-14T10:12:34Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 46,
       "name": "Drilling Management (Krux)",
+      "demandNumber": "DEM00064",
       "department": "BMNM",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "Abdulqaderf@maaden.com",
+      "businessFocalPoint": "BardenE@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "2023-09-30T21:00:00Z",
+      "goLiveDate": "2025-02-02T21:00:00Z",
+      "modified": "2025-08-31T07:13:57Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 47,
       "name": "Initiative Management System (MS Project Operations - Dynamics)",
+      "demandNumber": "DEM00161",
       "department": "Strategy, CA, CCD",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "AlRashidiMON@maaden.com",
+      "businessFocalPoint": "OmairM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "2024-01-02T21:00:00Z",
+      "goLiveDate": "2025-05-19T21:00:00Z",
+      "modified": "2025-10-08T08:25:52Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 48,
       "name": "Asset Performance System (APM)",
+      "demandNumber": "DEM00393",
       "department": "ALUMINUM",
       "portfolio": "Business Demand",
       "status": "Slightly Delayed",
       "lifecycleStage": "Execution",
       "projectManager": "MahmoudMoha@maaden.com.sa",
+      "businessFocalPoint": "AlshayeaM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-02-03T21:00:00Z",
+      "goLiveDate": "2026-01-28T21:00:00Z",
+      "modified": "2026-01-28T10:18:28Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 49,
       "name": "RPA Implementation in Facility Management",
+      "demandNumber": "DEM00242",
       "department": "HR",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Execution",
       "projectManager": "MajhiS@maaden.com.sa",
+      "businessFocalPoint": "BinShuaylF@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2024-03-10T21:00:00Z",
+      "goLiveDate": "2025-08-27T21:00:00Z",
+      "modified": "2026-01-14T09:19:05Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 50,
       "name": "maintenance management system (CMMS ) cloud connectivity",
+      "demandNumber": "DEM00407",
       "department": "ALUMINUM",
       "portfolio": "Business Demand",
       "status": "Cancelled",
       "lifecycleStage": "Initiation",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "ChakkolayilA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 25,
-      "actualProgress": 25
+      "actualProgress": 25,
+      "milestone": "CS & EDA",
+      "demandCreationDate": "2025-03-03T21:00:00Z",
+      "goLiveDate": "2025-12-30T21:00:00Z",
+      "modified": "2025-09-03T05:45:53Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 51,
       "name": "Documentation Management System",
+      "demandNumber": "DEM00416",
       "department": "Legal, GRC, Audit",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "ZamoraA@Maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-04-05T21:00:00Z",
+      "goLiveDate": "2026-01-29T21:00:00Z",
+      "modified": "2026-01-14T09:30:18Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 52,
       "name": "Enterprise Risk Management (ERM) Software",
+      "demandNumber": "DEM00417",
       "department": "Legal, GRC, Audit",
       "portfolio": "Business Demand",
       "status": "On Hold",
       "lifecycleStage": "Initiation",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "MohammedSHA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 50,
-      "actualProgress": 48
+      "actualProgress": 48,
+      "milestone": "CS & EDA",
+      "demandCreationDate": "2025-04-09T21:00:00Z",
+      "goLiveDate": "2025-12-30T21:00:00Z",
+      "modified": "2025-11-20T09:53:28Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 53,
       "name": "MAADEN Proactive Execution (MAADEN ProX)",
+      "demandNumber": "DEM00436",
       "department": "ALUMINUM",
       "portfolio": "Business Demand",
       "status": "Cancelled",
       "lifecycleStage": "Initiation",
       "projectManager": "RabihH@maaden.com.sa",
+      "businessFocalPoint": "",
+      "sponsor": "",
       "plannedProgress": 25,
-      "actualProgress": 25
+      "actualProgress": 25,
+      "milestone": "PM Assignement",
+      "demandCreationDate": "2025-05-14T21:00:00Z",
+      "goLiveDate": "2025-11-29T21:00:00Z",
+      "modified": "2025-11-25T06:00:02Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 54,
       "name": "Exploration Drilling Contractors System",
+      "demandNumber": "DEM00228",
       "department": "ERD",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "ShivarudraiahV@maaden.com",
+      "businessFocalPoint": "SantiagodeOliveiraA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Value Realization",
+      "demandCreationDate": "2024-02-24T21:00:00Z",
+      "goLiveDate": "2025-05-02T21:00:00Z",
+      "modified": "2025-09-08T12:01:53Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 55,
       "name": "Smelter Digital Twin",
+      "demandNumber": "DEM00208",
       "department": "ALUMINUM",
       "portfolio": "Digitalization",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "—",
+      "businessFocalPoint": "AzimKhanF@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2024-01-29T21:00:00Z",
+      "goLiveDate": "2025-11-29T21:00:00Z",
+      "modified": "2026-01-12T12:17:55Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 56,
       "name": "XERAS Cloud Implementation",
+      "demandNumber": "DEM00448",
       "department": "BMNM",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Execution",
       "projectManager": "ShivarudraiahV@maaden.com",
+      "businessFocalPoint": "HariatnoD@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-06-14T21:00:00Z",
+      "goLiveDate": "2025-09-09T21:00:00Z",
+      "modified": "2025-09-22T08:28:29Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 57,
       "name": "LIMS Upgrade V8 & System Enhancements",
+      "demandNumber": "DEM00446",
       "department": "Phosphate",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "BinQurayahA@maaden.com.sa",
+      "businessFocalPoint": "ZoureaM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-06-02T21:00:00Z",
+      "goLiveDate": "2026-05-06T21:00:00Z",
+      "modified": "2026-01-14T12:06:11Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 58,
       "name": "Teammate+ Upgrade",
+      "demandNumber": "DEM00463",
       "department": "Legal, GRC, Audit",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "BinQurayahA@maaden.com.sa",
+      "businessFocalPoint": "RamosEd@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Value Realization",
+      "demandCreationDate": "2025-07-19T21:00:00Z",
+      "goLiveDate": "2025-12-24T21:00:00Z",
+      "modified": "2025-11-25T08:30:58Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 59,
       "name": "Safety & Training Compliance System",
+      "demandNumber": "DEM00447",
       "department": "BMNM",
       "portfolio": "Digitalization",
       "status": "Slightly Delayed",
       "lifecycleStage": "Execution",
       "projectManager": "ChakraborttyG@maaden.com.sa",
+      "businessFocalPoint": "AndrewsB@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Plan",
+      "demandCreationDate": "2025-06-03T21:00:00Z",
+      "goLiveDate": "2026-03-14T21:00:00Z",
+      "modified": "2026-01-14T10:12:03Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 60,
       "name": "Insurance Automation",
+      "demandNumber": "DEM00476",
       "department": "Finance",
       "portfolio": "Business Demand",
       "status": "Cancelled",
       "lifecycleStage": "Procurement",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AlqarniL@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 25,
-      "actualProgress": 25
+      "actualProgress": 25,
+      "milestone": "PR Creation & Approval",
+      "demandCreationDate": "2025-08-06T21:00:00Z",
+      "goLiveDate": "2026-02-28T21:00:00Z",
+      "modified": "2025-11-20T09:53:36Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 61,
       "name": "Learning Management system (HR Enhancements))",
+      "demandNumber": "DEM00077",
       "department": "HR",
       "portfolio": "Business Demand",
       "status": "Slightly Delayed",
       "lifecycleStage": "Execution",
       "projectManager": "MajhiS@maaden.com.sa",
+      "businessFocalPoint": "TarfaM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-04-26T21:00:00Z",
+      "goLiveDate": "2025-11-12T21:00:00Z",
+      "modified": "2026-01-14T10:20:59Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 62,
       "name": "Petty Cash Automation",
+      "demandNumber": "DEM00470",
       "department": "Finance",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "inayatullahm@Maaden.com.sa",
+      "businessFocalPoint": "AlDossarySAAD@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-07-27T21:00:00Z",
+      "goLiveDate": "2026-02-28T21:00:00Z",
+      "modified": "2026-02-05T07:22:10Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 63,
       "name": "Automation of Trade Finance, Supply Chain Finance and loan operations requested from internal stakeholders",
+      "demandNumber": "DEM00444",
       "department": "Finance",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Procurement",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AbdulrahmanAA@Maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "PR Creation & Approval",
+      "demandCreationDate": "2025-05-27T21:00:00Z",
+      "goLiveDate": "2026-03-30T21:00:00Z",
+      "modified": "2026-01-14T09:36:22Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 64,
       "name": "OT production and Process data reflected in IT environment",
+      "demandNumber": "DEM00480",
       "department": "ALUMINUM",
       "portfolio": "Business Demand",
       "status": "Cancelled",
       "lifecycleStage": "Execution",
       "projectManager": "RabihH@maaden.com.sa",
+      "businessFocalPoint": "SivanandamSU@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 25,
-      "actualProgress": 25
+      "actualProgress": 25,
+      "milestone": "Plan",
+      "demandCreationDate": "2025-08-13T21:00:00Z",
+      "goLiveDate": "2026-02-25T21:00:00Z",
+      "modified": "2026-01-14T08:14:14Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 65,
       "name": "Availo Attendance System",
+      "demandNumber": "DEM00462",
       "department": "HR",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Execution",
       "projectManager": "MajhiS@maaden.com.sa",
+      "businessFocalPoint": "BinShuaylF@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2025-07-15T21:00:00Z",
+      "goLiveDate": "2025-12-04T21:00:00Z",
+      "modified": "2026-01-14T08:32:34Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 66,
       "name": "third party due diligence screening system",
+      "demandNumber": "DEM00456",
       "department": "Legal, GRC, Audit",
       "portfolio": "Business Demand",
       "status": "Cancelled",
       "lifecycleStage": "Initiation",
       "projectManager": "JabbarR@maaden.com.sa",
+      "businessFocalPoint": "AlzakariA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 25,
-      "actualProgress": 25
+      "actualProgress": 25,
+      "milestone": "PM Assignement",
+      "demandCreationDate": "2025-06-28T21:00:00Z",
+      "goLiveDate": "2026-02-17T21:00:00Z",
+      "modified": "2026-01-14T08:32:27Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 67,
       "name": "Seequent IMAGO & EVO as part of Exploration TeX Program",
+      "demandNumber": "DEM00474",
       "department": "ERD",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "BinQurayahA@maaden.com.sa",
+      "businessFocalPoint": "SantiagodeOliveiraA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "2025-08-04T21:00:00Z",
+      "goLiveDate": "2025-10-28T21:00:00Z",
+      "modified": "2025-11-25T08:31:38Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 68,
       "name": "PE&I Services Flowchart",
+      "demandNumber": "DEM00459",
       "department": "PDE",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AlHowailY@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Plan",
+      "demandCreationDate": "2025-07-06T21:00:00Z",
+      "goLiveDate": "2026-02-03T21:00:00Z",
+      "modified": "2026-01-14T09:44:16Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 69,
       "name": "Quality Process Digitalization",
+      "demandNumber": "DEM00497",
       "department": "PDE",
       "portfolio": "Business Demand",
       "status": "On Hold",
       "lifecycleStage": "Initiation",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AlHowailY@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 50,
-      "actualProgress": 48
+      "actualProgress": 48,
+      "milestone": "CS & EDA",
+      "demandCreationDate": "2025-09-17T21:00:00Z",
+      "goLiveDate": "2026-03-30T21:00:00Z",
+      "modified": "2025-11-23T10:58:26Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 70,
       "name": "Internal Merchandise Store for Maaden Employees",
+      "demandNumber": "DEM00455",
       "department": "Strategy, CA, CCD",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AlHarbiShame@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Plan",
+      "demandCreationDate": "2025-06-25T21:00:00Z",
+      "goLiveDate": "2026-05-06T21:00:00Z",
+      "modified": "2026-01-14T09:50:34Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 71,
       "name": "Beamex software upgrade",
+      "demandNumber": "DEM00140",
       "department": "ALUMINUM",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "BinQurayahA@maaden.com.sa",
+      "businessFocalPoint": "AlBanaqiH@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Build & Test",
+      "demandCreationDate": "2023-12-13T21:00:00Z",
+      "goLiveDate": "2025-12-31T21:00:00Z",
+      "modified": "2025-11-25T07:33:22Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 72,
       "name": "RIS methodology implementation proposal",
+      "demandNumber": "DEM00071",
       "department": "Phosphate",
       "portfolio": "Business Demand",
       "status": "On Hold",
       "lifecycleStage": "Initiation",
       "projectManager": "JainM@maaden.com.sa",
+      "businessFocalPoint": "AlShehriMO@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 50,
-      "actualProgress": 48
+      "actualProgress": 48,
+      "milestone": "PR Creation & Approval",
+      "demandCreationDate": "2023-10-09T21:00:00Z",
+      "goLiveDate": "2026-06-29T21:00:00Z",
+      "modified": "2025-11-25T07:13:08Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 73,
       "name": "CA requirement for digital solution",
+      "demandNumber": "DEM00460",
       "department": "Strategy, CA, CCD",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Procurement",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AlAbdulkarimA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "PR Creation & Approval",
+      "demandCreationDate": "2025-07-06T21:00:00Z",
+      "goLiveDate": "2026-07-08T21:00:00Z",
+      "modified": "2026-01-14T09:59:37Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 74,
       "name": "Local Content External Portal Registration (Tharwah)",
+      "demandNumber": "DEM00054",
       "department": "Procurement",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "SharmaVA@maaden.com",
+      "businessFocalPoint": "radadia@Maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "",
+      "goLiveDate": "2025-01-12T21:00:00Z",
+      "modified": "2025-11-25T06:42:46Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 75,
       "name": "Competency Assessment tool",
+      "demandNumber": "DEM00452",
       "department": "PDE",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "JimsonP@maaden.com.sa",
+      "businessFocalPoint": "AlobaidM@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "",
+      "goLiveDate": "2025-10-21T21:00:00Z",
+      "modified": "2025-11-16T08:23:19Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 76,
       "name": "External Contractor training solution",
+      "demandNumber": "DEM00414",
       "department": "Procurement",
       "portfolio": "Business Demand",
       "status": "Closing",
       "lifecycleStage": "Closing",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AlzahraniAF@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 90,
-      "actualProgress": 95
+      "actualProgress": 95,
+      "milestone": "Closure",
+      "demandCreationDate": "2025-02-10T21:00:00Z",
+      "goLiveDate": "2025-11-12T21:00:00Z",
+      "modified": "2025-11-25T10:10:48Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 77,
       "name": "Production Profile Automation (BMNM)",
+      "demandNumber": "DEM00494",
       "department": "BMNM",
       "portfolio": "Business Demand",
       "status": "Slightly Delayed",
       "lifecycleStage": "Solutioning",
       "projectManager": "inayatullahm@Maaden.com.sa",
+      "businessFocalPoint": "AlBallaaS@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 60,
-      "actualProgress": 55
+      "actualProgress": 55,
+      "milestone": "Solution Preparation",
+      "demandCreationDate": "2025-09-13T21:00:00Z",
+      "goLiveDate": "2026-02-25T21:00:00Z",
+      "modified": "2026-01-28T10:52:29Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 78,
       "name": "Stakeholders Information Management Software",
+      "demandNumber": "RITM0099536",
       "department": "PDE",
       "portfolio": "Business Demand",
       "status": "Cancelled",
       "lifecycleStage": "Procurement",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AlDuaijA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 25,
-      "actualProgress": 25
+      "actualProgress": 25,
+      "milestone": "PR Creation & Approval",
+      "demandCreationDate": "",
+      "goLiveDate": "",
+      "modified": "2025-11-20T09:58:07Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 79,
       "name": "ERD Lab Result to Data Mine Fusion Integration (BMNM)",
+      "demandNumber": "PRJ-2024-079",
       "department": "BMNM",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "inayatullahm@Maaden.com.sa",
+      "businessFocalPoint": "SantiagodeOliveiraA@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Build & Test",
+      "demandCreationDate": "",
+      "goLiveDate": "2026-02-28T21:00:00Z",
+      "modified": "2026-02-05T07:46:54Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 80,
       "name": "Source to procure (SAP Ariba)",
+      "demandNumber": "DMND1000019",
       "department": "Procurement",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Execution",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "AlObaidanN@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Plan",
+      "demandCreationDate": "2025-12-23T21:00:00Z",
+      "goLiveDate": "2026-07-07T21:00:00Z",
+      "modified": "2026-01-14T10:28:20Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     },
     {
       "id": 81,
       "name": "HCM Portal",
+      "demandNumber": "DMND1000020",
       "department": "HR",
       "portfolio": "Business Demand",
       "status": "On Track",
       "lifecycleStage": "Procurement",
       "projectManager": "AlghamdiTA@maaden.com",
+      "businessFocalPoint": "BinShuaylF@maaden.com.sa",
+      "sponsor": "",
       "plannedProgress": 75,
-      "actualProgress": 75
+      "actualProgress": 75,
+      "milestone": "Evaluation & Awarding",
+      "demandCreationDate": "2025-12-24T21:00:00Z",
+      "goLiveDate": "2026-03-31T21:00:00Z",
+      "modified": "2026-01-14T10:42:44Z",
+      "demandDescription": "",
+      "update": "",
+      "challenges": [],
+      "risks": [],
+      "plannedActivities": [],
+      "addedValues": [],
+      "beneficiaryDepartment": "",
+      "phaseDates": {
+        "initiation": {
+          "start": "",
+          "end": ""
+        },
+        "procurement": {
+          "start": "",
+          "end": ""
+        },
+        "execution": {
+          "start": "",
+          "end": ""
+        },
+        "closure": {
+          "start": "",
+          "end": ""
+        }
+      }
     }
   ]
 }
