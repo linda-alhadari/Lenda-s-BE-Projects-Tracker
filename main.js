@@ -13,7 +13,7 @@ const STAGE_COLOR = "#B4A56F";
 
 async function loadDashboardData() {
   // Load the main dashboard data file (user-provided)
-  const response = await fetch("https://raw.githubusercontent.com/linda-alhadari/Lenda-s-BE-Projects-Tracker/refs/heads/main/data/dashboard-data.json?_sm_au_=iVVZj6VWvN4Q7FqSLqHpHKsKMVjQp");
+  const response = await fetch("./data/dashboard-data.json");
   if (!response.ok) {
     // Fail quietly but keep layout
     // eslint-disable-next-line no-console
@@ -67,6 +67,8 @@ function renderFilters(filters, filterState, onFilterChange) {
     const chip = document.createElement("button");
     chip.className = "filter-chip";
     chip.type = "button";
+    chip.setAttribute("aria-expanded", "false");
+    chip.setAttribute("aria-haspopup", "listbox");
     chip.innerHTML = `
       <span class="filter-chip-label">${f.label}</span>
       <span class="filter-chip-value">
@@ -97,8 +99,15 @@ function renderFilters(filters, filterState, onFilterChange) {
     chip.addEventListener("click", (e) => {
       e.stopPropagation();
       const open = document.querySelector(".filter-dropdown:not([hidden])");
-      if (open && open !== dropdown) open.hidden = true;
-      dropdown.hidden = !dropdown.hidden;
+      if (open && open !== dropdown) {
+        open.hidden = true;
+        open.previousElementSibling?.setAttribute("aria-expanded", "false");
+        open.previousElementSibling?.classList.remove("is-open");
+      }
+      const isOpen = dropdown.hidden;
+      dropdown.hidden = !isOpen;
+      chip.setAttribute("aria-expanded", String(!dropdown.hidden));
+      chip.classList.toggle("is-open", !dropdown.hidden);
     });
 
     wrap.appendChild(chip);
@@ -110,6 +119,8 @@ function renderFilters(filters, filterState, onFilterChange) {
 function closeFilterDropdowns() {
   document.querySelectorAll(".filter-dropdown").forEach((d) => {
     d.hidden = true;
+    d.previousElementSibling?.classList.remove("is-open");
+    d.previousElementSibling?.setAttribute("aria-expanded", "false");
   });
 }
 
@@ -177,6 +188,7 @@ function createProjectCard(project) {
   card.className = "project-card";
   card.dataset.status = project.status;
   card.dataset.lifecycle = project.lifecycle;
+  card.dataset.projectId = String(project.id);
 
   const statusClass =
     {
@@ -250,6 +262,159 @@ function createProjectCard(project) {
   return card;
 }
 
+function formatDate(str) {
+  if (!str || str === "—") return "—";
+  try {
+    const d = new Date(str);
+    if (Number.isNaN(d.getTime())) return str;
+    return d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+  } catch {
+    return str;
+  }
+}
+
+function parsePhaseMonths(phaseDates) {
+  const phases = [
+    { key: "initiation", label: "Initiation (Planning & Setup)", dates: phaseDates?.initiation, defStart: 0, defMonths: 2 },
+    { key: "procurement", label: "Procurement (Resource Acquisition)", dates: phaseDates?.procurement, defStart: 2, defMonths: 4 },
+    { key: "execution", label: "Execution (Implementation Phase)", dates: phaseDates?.execution, defStart: 5, defMonths: 7 },
+    { key: "closure", label: "Go-Live - Closing (Launch & Finalization)", dates: phaseDates?.closure, defStart: 9, defMonths: 2 }
+  ];
+  const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  let minMonth = 0;
+  let maxMonth = 11;
+  const bars = phases.map((ph) => {
+    let startM = ph.defStart ?? 0;
+    let months = ph.defMonths ?? 2;
+    if (ph.dates?.start && ph.dates?.end) {
+      const s = new Date(ph.dates.start);
+      const e = new Date(ph.dates.end);
+      if (!Number.isNaN(s.getTime()) && !Number.isNaN(e.getTime())) {
+        startM = s.getMonth() + s.getFullYear() * 12;
+        const endM = e.getMonth() + e.getFullYear() * 12;
+        months = Math.max(1, endM - startM + 1);
+      }
+    }
+    return { ...ph, startMonth: startM, endMonth: startM + months - 1, months };
+  });
+  const allStarts = bars.map((b) => b.startMonth);
+  const allEnds = bars.map((b) => b.endMonth);
+  if (allStarts.length) minMonth = Math.min(...allStarts);
+  if (allEnds.length) maxMonth = Math.max(...allEnds);
+  const span = Math.max(12, maxMonth - minMonth + 1);
+  return { bars, monthNames, minMonth, span };
+}
+
+function renderProjectModal(project) {
+  const get = (v) => (v != null && v !== "" ? v : "—");
+  const idEl = document.getElementById("modal-project-id");
+  const createdEl = document.getElementById("modal-created-date");
+  const nameEl = document.getElementById("modal-project-name");
+  const statusEl = document.getElementById("modal-status-pill");
+  const stageEl = document.getElementById("modal-stage");
+  const sbuEl = document.getElementById("modal-sbu");
+  const beneficiaryEl = document.getElementById("modal-beneficiary");
+  const portfolioEl = document.getElementById("modal-portfolio");
+  const sponsorEl = document.getElementById("modal-sponsor");
+  const bizFocalEl = document.getElementById("modal-business-focal");
+  const itPmEl = document.getElementById("modal-it-pm");
+  const milestoneEl = document.getElementById("modal-milestone");
+  const addedValuesEl = document.getElementById("modal-added-values");
+  const demandEl = document.getElementById("modal-demand");
+  const updatesEl = document.getElementById("modal-updates");
+  const challengesEl = document.getElementById("modal-challenges");
+  const plannedEl = document.getElementById("modal-planned-activities");
+  const progressPlannedEl = document.getElementById("modal-progress-planned");
+  const progressActualEl = document.getElementById("modal-progress-actual");
+  const plannedPctEl = document.getElementById("modal-planned-pct");
+  const actualPctEl = document.getElementById("modal-actual-pct");
+  const timelineEl = document.getElementById("modal-timeline");
+
+  const projectId = project.demandNumber || `PRJ-2024-${String(project.id).padStart(3, "0")}`;
+  const createdDate = formatDate(project.demandCreationDate || project.modified || "");
+
+  if (idEl) idEl.textContent = projectId;
+  if (createdEl) createdEl.textContent = `Created: ${createdDate}`;
+  if (nameEl) nameEl.textContent = get(project.name);
+  if (stageEl) stageEl.textContent = get(project.lifecycle || project.lifecycleStage);
+  if (sbuEl) sbuEl.textContent = get(project.department);
+  if (beneficiaryEl) beneficiaryEl.textContent = get(project.beneficiaryDepartment);
+  if (portfolioEl) portfolioEl.textContent = get(project.portfolio);
+  if (sponsorEl) sponsorEl.textContent = formatManagerName(get(project.sponsor));
+  if (bizFocalEl) bizFocalEl.textContent = formatManagerName(get(project.businessFocalPoint));
+  if (itPmEl) itPmEl.textContent = formatManagerName(get(project.manager || project.projectManager));
+  if (milestoneEl) milestoneEl.textContent = get(project.milestone);
+  if (demandEl) demandEl.textContent = get(project.demandDescription);
+
+  statusEl.textContent = get(project.status);
+  statusEl.className = "modal-status-pill " + (
+    { "On Track": "status-ontrack", Delayed: "status-delayed", "Slightly Delayed": "status-delayed", "On Hold": "status-onhold", Closing: "status-closing" }[project.status] || "status-ontrack"
+  );
+
+  const added = project.addedValues || [];
+  addedValuesEl.innerHTML = added.length ? added.map((v) => `<li>${String(v)}</li>`).join("") : "<li>—</li>";
+
+  const updates = project.update ? (typeof project.update === "string" ? project.update.split(/\n|•/).filter(Boolean) : []) : [];
+  updatesEl.innerHTML = updates.length ? updates.map((u) => `<li>${String(u).trim()}</li>`).join("") : "<li>—</li>";
+
+  const challenges = [...(project.challenges || []), ...(project.risks || [])];
+  challengesEl.innerHTML = challenges.length ? challenges.map((c) => `<li>${String(c)}</li>`).join("") : "<li>—</li>";
+
+  const planned = project.plannedActivities || [];
+  plannedEl.innerHTML = planned.length ? planned.map((p) => `<li>${String(p)}</li>`).join("") : "<li>—</li>";
+
+  const plannedPct = Math.round((project.plannedProgress ?? 0) * 100);
+  const actualPct = Math.round((project.actualProgress ?? 0) * 100);
+  if (plannedPctEl) plannedPctEl.textContent = `${plannedPct}%`;
+  if (actualPctEl) actualPctEl.textContent = `${actualPct}%`;
+  if (progressPlannedEl) progressPlannedEl.style.width = `${plannedPct}%`;
+  if (progressActualEl) progressActualEl.style.width = `${actualPct}%`;
+
+  const { bars, monthNames, minMonth, span } = parsePhaseMonths(project.phaseDates);
+  const totalCols = Math.min(12, Math.max(6, span));
+  const monthLabels = [];
+  for (let i = 0; i < totalCols; i++) {
+    const m = (minMonth + i) % 12;
+    const y = Math.floor((minMonth + i) / 12);
+    monthLabels.push(monthNames[m] + (y > 0 ? ` '${String(y).slice(-2)}` : ""));
+  }
+  const monthRow = `<div class="modal-timeline-header"><span class="modal-timeline-phase-label"></span><div class="modal-timeline-months" style="--timeline-cols: ${totalCols}"><div class="modal-timeline-months-inner">${monthLabels.map((m) => `<span class="modal-timeline-month">${m}</span>`).join("")}</div></div></div>`;
+  const phaseRows = bars
+    .map((b) => {
+      const startCol = Math.max(1, b.startMonth - minMonth + 1);
+      const span = Math.max(1, Math.min(b.months, totalCols - startCol + 1));
+      return `
+    <div class="modal-timeline-phase">
+      <span class="modal-timeline-phase-label">${b.label}</span>
+      <div class="modal-timeline-months" style="--timeline-cols: ${totalCols}">
+        <div class="modal-timeline-bar" style="grid-column: ${startCol} / span ${span};">${b.months} month${b.months !== 1 ? "s" : ""}</div>
+      </div>
+    </div>
+  `;
+    })
+    .join("");
+  timelineEl.innerHTML = monthRow + phaseRows;
+}
+
+function openProjectModal(project) {
+  renderProjectModal(project);
+  const backdrop = document.getElementById("project-modal-backdrop");
+  if (backdrop) {
+    backdrop.classList.add("is-open");
+    backdrop.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+}
+
+function closeProjectModal() {
+  const backdrop = document.getElementById("project-modal-backdrop");
+  if (backdrop) {
+    backdrop.classList.remove("is-open");
+    backdrop.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  }
+}
+
 function applyFilters(projects, filterState) {
   return projects.filter((p) => {
     if (filterState.businessUnit && filterState.businessUnit !== "All" && p.department !== filterState.businessUnit)
@@ -314,12 +479,25 @@ function renderProjects(projects, activeTab) {
         )
       : projects;
 
-  filtered.forEach((project) => {
-    grid.appendChild(createProjectCard(project));
-  });
+  if (filtered.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "projects-empty";
+    empty.innerHTML = `
+      <p class="projects-empty-text">No projects match the current filters.</p>
+      <p class="projects-empty-hint">Try adjusting your filter selection.</p>
+    `;
+    grid.appendChild(empty);
+  } else {
+    filtered.forEach((project, index) => {
+      const card = createProjectCard(project);
+      card.style.animationDelay = `${index * 25}ms`;
+      grid.appendChild(card);
+    });
+  }
 }
 
 let currentFilteredProjects = [];
+let allProjectsData = [];
 
 function attachProjectTabHandlers() {
   const container = document.getElementById("projects-tabs");
@@ -371,9 +549,11 @@ function renderStatusOverview(statusOverview) {
     const share = item.value / total;
     const color = STATUS_COLORS[item.status] ?? "#666666";
     const angleDeg = share * totalSegmentDeg;
-    const midAngle = curAngle + DONUT_GAP_DEG + angleDeg / 2;
+    const startAngle = curAngle + DONUT_GAP_DEG;
+    const endAngle = startAngle + angleDeg;
+    const midAngle = startAngle + angleDeg / 2;
 
-    segments.push({ color, angleDeg, value: item.value, midAngle });
+    segments.push({ color, angleDeg, value: item.value, midAngle, startAngle, endAngle });
 
     curAngle += DONUT_GAP_DEG + angleDeg;
 
@@ -411,13 +591,45 @@ function renderStatusOverview(statusOverview) {
 
   donut.style.background = `conic-gradient(from 0deg, ${stops.join(", ")})`;
 
-  if (labelsContainer) {
-    segments.forEach(({ value, midAngle }) => {
+  const wrapper = donut.closest(".donut-wrapper");
+  const chartLayout = donut.closest(".chart-layout--status");
+
+  if (labelsContainer && wrapper && chartLayout) {
+    segments.forEach(({ value, midAngle }, index) => {
       const label = document.createElement("span");
       label.className = "donut-segment-label";
+      label.dataset.segment = String(index);
       label.style.transform = `rotate(${midAngle}deg) translateY(-62px)`;
       label.innerHTML = `<span class="donut-segment-label-inner" style="transform: rotate(-${midAngle}deg)">${value}%</span>`;
       labelsContainer.appendChild(label);
+    });
+
+    function getAngleFromCenter(ev) {
+      const rect = wrapper.getBoundingClientRect();
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
+      const dx = ev.clientX - cx;
+      const dy = ev.clientY - cy;
+      const rad = Math.atan2(dx, -dy);
+      return ((rad * 180) / Math.PI + 360) % 360;
+    }
+
+    function getSegmentIndex(angle) {
+      for (let i = 0; i < segments.length; i++) {
+        const { startAngle, endAngle } = segments[i];
+        if (angle >= startAngle && angle < endAngle) return i;
+      }
+      return -1;
+    }
+
+    wrapper.addEventListener("mousemove", (ev) => {
+      const angle = getAngleFromCenter(ev);
+      const idx = getSegmentIndex(angle);
+      chartLayout.dataset.hoveredSegment = idx >= 0 ? String(idx) : "";
+    });
+
+    wrapper.addEventListener("mouseleave", () => {
+      chartLayout.removeAttribute("data-hovered-segment");
     });
   }
 }
@@ -425,6 +637,7 @@ function renderStatusOverview(statusOverview) {
 function renderLifecycleChart(stages) {
   const container = document.getElementById("lifecycle-chart");
   container.innerHTML = "";
+  container.style.setProperty("--lifecycle-cols", String(stages.length));
 
   const dataMax = stages.reduce(
     (currentMax, stage) => Math.max(currentMax, stage.value),
@@ -506,6 +719,7 @@ async function initDashboard() {
   ];
 
   const allProjects = (data.projects ?? []).map((p) => ({
+    ...p,
     id: p.id,
     name: p.name,
     department: p.department,
@@ -516,6 +730,7 @@ async function initDashboard() {
     plannedProgress: (p.plannedProgress ?? 0) / 100,
     actualProgress: (p.actualProgress ?? 0) / 100
   }));
+  allProjectsData = allProjects;
 
   const filterState = {
     businessUnit: "All",
@@ -552,6 +767,25 @@ async function initDashboard() {
 
   document.addEventListener("click", (e) => {
     if (!e.target.closest(".filter-chip-wrap")) closeFilterDropdowns();
+    if (e.target.id === "project-modal-backdrop" || e.target.closest("#modal-close")) closeProjectModal();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      closeFilterDropdowns();
+      closeProjectModal();
+    }
+  });
+
+  document.getElementById("projects-grid")?.addEventListener("click", (e) => {
+    const menuBtn = e.target.closest(".project-menu");
+    if (!menuBtn) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const card = menuBtn.closest(".project-card");
+    if (!card) return;
+    const id = parseInt(card.dataset.projectId, 10);
+    const project = allProjectsData.find((p) => p.id === id);
+    if (project) openProjectModal(project);
   });
 
   attachProjectTabHandlers();
